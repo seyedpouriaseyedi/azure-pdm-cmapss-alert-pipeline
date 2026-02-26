@@ -18,4 +18,5 @@ flowchart LR
   C --> D[alerts/ alerts_*.json + summary.json]
   D --> E[Logic App trigger on blob]
   E --> F[Teams/Email notification]
-  E --> G[Power Automate -> Planner task]
+  E --> G[Power Automate -> Planner task] 
+```
