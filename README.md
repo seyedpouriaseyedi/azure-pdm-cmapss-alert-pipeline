@@ -9,6 +9,7 @@ Scalable workflow for predictive maintenance alerts: data lake ingestion, Databr
 3. Databricks writes `alerts_*.json` (high-risk rows only) + `summary_*.json` to `/alerts/...`
 4. Logic App triggers on new alert file and sends Teams/email notification
 5. Power Automate creates a Planner task: “Check Machine X…”
+```
 
 ## Architecture
 ```mermaid
